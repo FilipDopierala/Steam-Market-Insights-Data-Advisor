@@ -163,9 +163,9 @@ THEME_STYLE_TAGS = ['Pixel Graphics', 'Anime', 'Story Rich', 'Atmospheric', 'Gre
 EXCLUDED_TAGS = set(GENRE_TAGS + PLAYER_MODE_TAGS + THEME_STYLE_TAGS + ['Free to Play'])
 OTHER_TAGS = [tag for tag in all_tag_names if tag not in EXCLUDED_TAGS]
 
-st.set_page_config(layout="wide", page_title="GameSuccess Predictor")
-st.title('GameSuccess Predictor 🎮')
-st.markdown("An Intelligent Advisor for Indie Game Developers. Enter your game's pre-launch features to predict its potential.")
+st.set_page_config(layout="wide", page_title="Market Insights & Data Advisor")
+st.title('Market Insights & Data Advisor 🎮')
+st.markdown("An Intelligent Advisor for Game Developers. Enter your game's pre-launch features to predict its potential.")
 
 with st.sidebar:
     st.header("Enter Your Game's Features:")
